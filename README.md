@@ -21,3 +21,28 @@ Run "npm run build" from project root. You should see newly created app.js in di
 
 Run "npm run serve" from project root to serve the app from dist folder using lite-server locally.
 
+
+# Known Issues
+
+aot compilation is not working for ngprime
+
+Following files have code references to ngprime and they are currently commented out where ngprime is used.
+
+app.module.ts
+app.component.ts
+header.component.html
+
+I don't know if this is because ngprime has not updated their library or because aot has a bug or because I have missed something here. 
+
+When this issue is resolved, I will uncomment the code related to primeng and make the app to work as originally intended.
+
+Here are some related discussions on this topic.
+
+AOT compiler doesn't generate *.ngfactory.ts files for 3rd party components in node_modules #11889: https://github.com/angular/angular/issues/11889
+
+AOT compiler failed with Primeng Modules #871: https://github.com/primefaces/primeng/issues/871
+
+angular2-compiler-bug: https://github.com/mattlewis92/angular2-compiler-bug
+
+
+

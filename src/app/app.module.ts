@@ -20,7 +20,7 @@ import { HomeComponent } from './home/home.component';
         HttpModule,
         appRouting
 
-        //MenubarModule
+        // MenubarModule
     ],
     declarations: [
         AppComponent,
