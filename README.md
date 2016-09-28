@@ -17,7 +17,7 @@ The following commands must be performed in order.
 
 Run "npm install" from project root.
 
-Run "npm run build" from project root. You should see newly created app.js in dist folder.
+Run "npm run build" from project root. If there are no build errors, you should see newly created app.js in dist folder. If there are errors, you can run this in 2 parts - "npm run ngc" followed by "npm run rollup" and see which command is generating errors.
 
 Run "npm run serve" from project root to serve the app from dist folder using lite-server locally.
 
