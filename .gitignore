@@ -8,6 +8,8 @@
 # typescript generated js and map files
 /src/app/*.js
 /src/app/*.map
+/src/app/*/*.js
+/src/app/*/*.map
 
 # dependencies
 /node_modules

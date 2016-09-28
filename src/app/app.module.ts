@@ -9,6 +9,7 @@ import { AppComponent }   from './app.component';
 import { appRouting, appRoutingProviders } from './app.routing';
 
 import { HeaderComponent } from './header/header.component';
+import { HomeComponent } from './home/home.component';
 
 // import { MenubarModule, MenuItem } from 'primeng/primeng';
 
@@ -23,7 +24,8 @@ import { HeaderComponent } from './header/header.component';
     ],
     declarations: [
         AppComponent,
-        HeaderComponent
+        HeaderComponent,
+        HomeComponent
     ],
     exports: [AppComponent],
     providers: [
