@@ -29,7 +29,11 @@ aot compilation is not working for ngprime
 Following files have code references to ngprime and they are currently commented out where ngprime is used.
 
 app.module.ts
+
 app.component.ts
+
+header.component.ts
+
 header.component.html
 
 I don't know if this is because ngprime has not updated their library or because aot has a bug or because I have missed something here. 
